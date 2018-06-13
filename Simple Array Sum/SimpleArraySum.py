@@ -24,13 +24,14 @@ def simpleArraySum(ar):
     return sum(ar)
 
 
+
+
 def simpleArraySumLoop(ar):
-    sum = 0
-    for i in ar:
+    
+    sum = 0     # Initialize sum to 0
+    for i in ar:    # Start a for-loop that will iterate over each
+                    #      element in ar. For each iteration the element
+                    #      will be added to sum. The '+=' means 
+                    #      sum = sum + i
         sum += i
     return sum
-        
-    #
-    # Write your code here.
-    #
-
